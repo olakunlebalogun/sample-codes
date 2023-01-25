@@ -6,7 +6,7 @@ package src.brocode;
  * The format is hierarchy would look like this 21y:09M:03w:2d:13h:58m:01s which means
  * 21 years, 9 month, 3 weeks, 2 days, 13 hours, 58 minutes, 1 second.
  */
-public class TimeConverter {
+public class TimeConverterV1 {
     // Converting constants
     private static final int secondsToMinute = 60;
     private static final int minutesToHour = 60;
